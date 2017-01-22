@@ -1,0 +1,11 @@
+- hosts: all
+  roles:
+   - role: common
+
+     - hosts: grafana-server
+  roles:
+    - role: grafana
+
+      - hosts: docker-servers
+  roles:
+    - role: influxdb

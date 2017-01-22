@@ -1,0 +1,5 @@
+[docker-servers]
+localhost ansible_connection=local
+
+[grafana-server]
+localhost ansible_connection=local
